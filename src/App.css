@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 70px;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+
+main {
+  min-height: calc(100vh - 120px);
+  display: flex;
+}
+
+main div {
+  padding: 20px;
+}
+
+footer {
+  height: 50px;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
